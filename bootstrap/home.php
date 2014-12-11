@@ -1,7 +1,12 @@
 <?php get_header(); ?>
-
+   <ul class="breadcrumb">
+      <li><a href="#">Home</a> <span class="divider">/</span></li>
+      <li><a href="#">Library</a> <span class="divider">/</span></li>
+      <li class="active">Data</li>
+   </ul>
 <div class="row">
   <div class="span8">
+
     <h1>News</h1>
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -17,7 +22,7 @@
   </div>
   <div class="span4">
 
-    
+    <?php get_sidebar(); ?>   
 
   </div>
 </div>
