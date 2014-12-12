@@ -1,0 +1,65 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/how-to-build-a-simple-responsive-wordpress-site-with-twitter-bootstrap
+Description: A simple responsive theme built with Bootstrap
+Author: Nida Butt
+Author URI: http://nida.b94.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.navbar-nav
+{
+	display: inline-block;
+}
+
+.navbar-inner
+{
+	text-align: left;
+}
+
+.navbar-nav
+{
+	margin:0;
+	padding:0;
+}
+
+
+.footer ul li
+{
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted #BBB;
+	list-style: none;
+    float:left;
+    border bottom: 1px solid #000000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer ul
+{
+	margin: 20;
+	padding: 0;
+}
+
+
+footer li.social-icon
+{
+	margin-right:5px;
+}
+
+
