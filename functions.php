@@ -1,5 +1,112 @@
 <?php
 
+// remove_menu_page("posts");
+
+$post_id = $_GET['post'] ? $_GET['post'] : $_POST['post_ID'] ;
+$template_file = get_post_meta($post_id,'_wp_page_template',TRUE);
+
+  // check for a template type
+  if ($template_file == 'TemplateTest_InfoPage.php') {
+    add_filter( 'rwmb_meta_boxes', 'YOURPREFIX_register_meta_boxes' );    
+  }
+
+
+
+function YOURPREFIX_register_meta_boxes( $meta_boxes )
+{
+    $prefix = 'rw_';
+
+    // 1st meta box
+    $meta_boxes[] = array(
+        'id'       => 'infostuff',
+        'title'    => 'Meta Data',
+        'pages'    => array( 'post', 'page' ),
+        'context'  => 'normal',
+        'priority' => 'high',
+
+        'fields' => array(
+            array(
+                'name'  => 'Banner Image',
+                'desc'  => '',
+                'id'    => $prefix . 'img',
+                'type'  => 'image',
+                'std'   => '',
+                'class' => 'custom-class',
+                'clone' => false,
+            ),
+            array(
+                'name'  => 'Banner Caption',
+                'desc'  => '',
+                'id'    => $prefix . 'caption',
+                'type'  => 'text',
+                'std'   => 'Im a Banner!',
+                'class' => 'custom-class',
+                'clone' => false,
+            ),
+            array(
+                'name'  => 'Title',
+                'desc'  => '',
+                'id'    => $prefix . 'title',
+                'type'  => 'text',
+                'std'   => 'Page Title',
+                'class' => 'custom-class',
+                'clone' => false,
+            ),
+            array(
+                'name'  => 'Subtitle',
+                'desc'  => '',
+                'id'    => $prefix . 'sub',
+                'type'  => 'text',
+                'std'   => 'Clever Subtitle',
+                'class' => 'custom-class',
+                'clone' => false,
+            ),
+            
+        )
+    );
+
+    //2nd meta box
+    $meta_boxes[] = array(
+        'id'       => 'contentstuff',
+        'title'    => 'Page Content',
+        'pages'    => array( 'post', 'page' ),
+        'context'  => 'normal',
+        'priority' => 'high',
+
+        'fields' => array(
+            array(
+                'name'  => 'Text Body',
+                'desc'  => '',
+                'id'    => $prefix . 'textbody',
+                'type'  => 'textarea',
+                'std'   => 'I am a body of text!',
+                'class' => 'custom-class',
+                'clone' => false,
+            ),
+        )
+    );
+
+    return $meta_boxes;
+}
+
+// function my_custom_pages_columns( $columns ) {
+
+//     /** Add a Thumbnail Column **/
+//     $myCustomColumns = array(
+//         'thumbnail' => __( 'Thumbnail', 'Aternus' )
+//     );
+//     $columns = array_merge( $columns, $myCustomColumns );
+
+//     /** Remove a Author, Comments Columns **/
+//     unset(
+//         $columns['author'],
+//         $columns['comments']
+//     );
+
+//     return $columns;
+// }
+// add_filter( 'manage_pages_columns', 'my_custom_pages_columns' );
+
 // This tells WordPress to call the function named "setup_theme_admin_menus"
 // when it's time to create the menu pages.
 add_action("admin_menu", "setup_theme_admin_menus");
