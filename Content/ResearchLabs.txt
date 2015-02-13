@@ -1,0 +1,62 @@
+Research and Labs
+
+Our faculty-led research activities examine many diverse areas of computing, including:
+
+agile methodology
+algorithms
+artificial intelligence
+business process reengineering
+computer forensics
+e-commerce
+intergenerational computing
+Internet computing
+keystroke biometrics
+mobile computing
+open source application development
+parallel and distributed computing
+pervasive computing and augmented reality
+privacy and computing
+responsive web design
+robotics
+security and information assurance
+social networking
+software engineering
+speech and handwriting recognition
+user interface / user experience
+wireless communications
+
+Research applications include data mining, document analysis and recognition, computer forensics, speech recognition, building of intelligent agents for network security, and assistive technology.
+
+Our principal research centers and laboratories include:
+
+Cybersecurity Institute
+The Center for the Advancement of Formal Methods Education
+The Computer Forensics Lab
+The Information Assurance Education and Research Center
+The Pervasive Computing Lab
+The Robotics Lab
+Seidenberg Creative Labs
+Pace Digital Media Gallery
+
+Faculty Publish in Emerging Fields
+
+Faculty pursue research that is published in a broad range of subdisciplines.
+
+Dr. Bel Raggad, a computer security expert, recently had Information Security: Concepts and Practice published by CRC Press. The text, developed as a classroom resource, provides a general overview of security auditing before examining the various elements of the information security life cycle.
+
+Dr. James Lawler co-authored Service-Oriented Architecture: SOA Strategy, Methodology and Technology. The book outlines a methodology for successfully deploying SOA, a framework enabling business process improvement for gaining competitive advantage.
+
+Using Technology for Student Success
+
+Seidenberg School students have the opportunity to work with professors on groundbreaking research that transforms how the world connects with information technology. Recently, two graduate students enrolled in a Technology Systems course were winners in the New York State Carter Academic Service Entrepreneur (CASE) Competition sponsored by the Jimmy and Rosalyn Carter Partnership Foundation with funding from the W.K. Kellogg Foundation. The students were recognized for developing a prototype of an "AssistaMouse," a modified version of a computer mouse that would help the elderly and people with certain types of disabilities to easily navigate a computer screen. The students received a grant to further development of the device. 
+
+Two other students placed first in the Building Livable Communities in Second Life competition sponsored by the Westchester County Department of Senior Programs and Services for designing a "user-friendly" living environment for the elderly using Second Life 3D Virtual World technology.
+
+In 2007, an undergraduate computer science major on our New York City campus was named a Finalist for the Computing Research Association's (CRA) Outstanding Undergraduate Award; more recently another undergraduate computer science major was awarded Honorable Mention in the same competition. The award is given to undergraduate students who show outstanding research potential.
+
+In addition, Seidenberg sponsors an annual Michael L. Gargano Student/Faculty Research Day, named after the late Michael L. Gargano, who was a prolific and inspiring researcher, at which students have the opportunity to share their individual and joint findings before a sizable audience. And, it is not unusual for master's and doctoral students to present research papers at professional conferences such as the World Multiconference on Systemics, Cybernetics and Informatics, the Department of Energy's Cyber Security Training Conference, and the International Conference on Artificial Intelligence and Pattern Recognition
+
+
+Research in the Seidenberg School is geared towards transforming significant sectors of the society through the design, development, implementation, testing, and deployment of practical computing applications. Professor Paul Benjamin, PhD, heads a robotics lab that develops intelligent agents to perform operations that are considered to be dangerous to humans. He and others, including Professors Li-Chiou Chen, PhD, Chienting Lin, PhD, and Bel Raggad, PhD, work on security and intrusion detection as part of the school’s designation as one of a select group of institutions to be named as a National Center of Excellence in Information Assurance. Professors Sung-Hyuk Cha, PhD, and Charles Tappert, PhD, direct the Pervasive Computing Lab, studying and applying human-computer interaction and machine learning techniques to a wide variety of wearable and handheld devices.
+
+Students at all levels have the opportunity to pursue research independently or with faculty and often present their works and findings at professional conferences. The school encourages critical and creative thought process and is host to an annual Student-Faculty Research Day.
