@@ -1,0 +1,147 @@
+/*
+G E N E R A L
+*/
+
+h1,h2,h3,h4 {
+	font-weight: 100;
+	color: gray;
+	text-align: center;
+}
+h1 {
+	margin-top: 20px;
+	font-size: 50px;
+}
+a {
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/*
+E V E N T S
+*/
+
+.event-list {
+	list-style: none;
+	margin: 0;
+	text-align: left;
+}
+.event-list-item-header {
+	//border: 1px solid gray;
+	//height: 100%;
+}
+.event-list-item-header span {
+	font-size: 70px;
+	color: lightgray;
+	text-align: center !important;
+}
+.event-list-item-body {
+	//border: 1px solid gray;
+	//height: 100%;
+}
+
+.event-list-item-body h1 {
+	margin:none;
+	color: #2B2B2B;
+	text-align: left;
+	font-size: 22px;
+	font-weight: 300;
+	color: gray;
+}
+.event-list-item-body h2 {
+	margin:none;
+	margin-top: -6px;
+	color: #2B2B2B;
+	text-align: left;
+	font-size: 17px;
+	font-weight: 300;
+	color: gray;
+}
+
+
+.event-list li {
+	color: #2B2B2B;
+	text-align: left;
+	//height:180px;
+	//max-height:180px;
+	min-height:40px;
+	margin-bottom: 40px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+.event-list li h1 {
+	color: #2B2B2B;
+	text-align: left;
+	font-size: 24px;
+	color: gray;
+}
+.event-list li p {
+	color: gray;
+}
+/*
+Informational Listings (info hub)
+*/
+
+.info-listing {
+	border: 1px solid #EBF1F5;
+	//background: #F5F8FA;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.info-listing span {
+	font-size: 90px;
+	color:gray;
+}
+.info-listing h1 {
+	//text-align: left;
+	font-size: 30px;
+	font-weight: 100;
+	color:gray;
+	margin-top: 20;
+	border-bottom: 1px solid #CFDEE8;
+}
+.info-listing ul {
+	margin-top: 30px;
+	margin-left: -38px;
+	list-style: none;
+	font-size: 18px;
+	color: black;
+	font-weight: 300;
+	//text-align: left;
+}
+.info-listing a {
+	cursor: pointer;
+}
+.infographic {
+	margin-top:0px;
+	margin-bottom: -10px;
+	background: #75D8CA;
+	min-height: 500px;
+	color:white;
+}
+.infographic-red {
+	background: #FF6A3B;
+	min-height: 500px;
+	color:white;
+}
+.infographic h1 {
+	color:white;
+	font-size: 60px;
+	font-weight: 100;
+}
+.infographic h2 {
+	color:white ;
+	font-size: 44px;
+	font-weight: 100;
+}
+.infographic h2 span {
+	color:white ;
+	font-size: 28px;
+	font-weight: 100;
+}
+.infographic h1 span {
+	font-size: 30px;
+	font-weight: 100;
+}

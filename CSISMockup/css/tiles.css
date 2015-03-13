@@ -1,0 +1,75 @@
+.tile-tabs {
+	margin: auto;
+}
+.tiles div a {
+	text-decoration: none;
+}
+.tiles {
+	list-style: none;	
+	margin-top: 20px;
+	user-select: none;
+}
+.tiles h1 {
+	text-align: left;
+	font-size: 26px;
+	font-weight: 100;
+	color: gray;
+	margin-left: 16px;
+	text-decoration: underline;
+}
+.tiles li {
+	text-align: center;
+	background: #3084B1;
+	min-height:150px;
+	max-height:150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	max-width:200px;
+	min-width:200px;
+	transition: opacity 0.2s;
+}
+.tiles li:hover{
+	opacity:0.6;
+}
+li.tile-lightblue {
+	background: #28AF9D;
+	text-align: center;
+	min-height:150px;
+	max-height:150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	max-width:200px;
+	min-width:200px;
+}
+li.tile-blue {
+	background: #3084B1;
+	text-align: center;
+	min-height:150px;
+	max-height:150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	max-width:200px;
+	min-width:200px;
+}
+.tiles li p {
+	display: block;
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
+}
+.tiles li p2 {
+	margin-top:-5px;
+	display: block;
+	color: white;
+	font-size: 20px;
+	opacity:0.9;
+	font-weight: 100;
+}
+.tiles li span {
+	margin-top: 30px;
+	font-size: 60px;
+	color: white;
+}
